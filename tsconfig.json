@@ -1,5 +1,8 @@
 {
   "files": [],
+  "compilerOptions": {
+    "strict": false,
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"
@@ -7,5 +10,6 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/*.vue", "*.d.ts", "src/**/*.ts", "src/**/*.d.ts", "node_modules/**/*.ts", "node_modules/**/*.d.ts"]
 }
