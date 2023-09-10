@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+        "userId": 1,
+        "name": "Justin Septimus",
+        "email": "example@example.com",
+        "user_status": "active",
+        "last_login": "12/12/2014",
+        "payment_status": "paid",
+        "paid_date": "12/12/2014",
+        "amount": 200,
+        "user_activity": [
+            {
+                "id": 1,
+                "activity": "lorem ipsum dolor sit amet, consectetur adipiscing",
+                "detail": "Lorem Ips yummy, consectetur adipis lobortis vel aug commodo just ut aliquet just temp"
+            }
+        ]
+      },
+      {
+        "userId": 2,
+        "name": "Philip Saris",
+        "email": "example@example.com",
+        "user_status": "inactive",
+        "last_login": "12/12/2014",
+        "payment_status": "unpaid",
+        "paid_date": "12/12/2014",
+        "amount": 200,
+        "user_activity": [
+            {
+                "id": 1,
+                "activity": "lorem ipsum dolor sit amet, consectetur adipiscing",
+                "detail": "Lorem Ips yummy, consectetur adipis lobortis vel aug commodo just ut aliquet just temp"
+            }
+        ]
+      },
+      {
+        "userId": 2,
+        "name": "Philip Saris",
+        "email": "example@example.com",
+        "user_status": "inactive",
+        "last_login": "12/12/2014",
+        "payment_status": "overdue",
+        "paid_date": "12/12/2014",
+        "amount": 200,
+        "user_activity": [
+            {
+                "id": 1,
+                "activity": "lorem ipsum dolor sit amet, consectetur adipiscing",
+                "detail": "Lorem Ips yummy, consectetur adipis lobortis vel aug commodo just ut aliquet just temp"
+            }
+        ]
+      }
+  ]
+}
